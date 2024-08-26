@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "monitoring-list-parser"
+version = "0.1.0"
+description = ""
+authors = ["Artem Kondratenko"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+my-library = { git = "https://github.com/ArtemKondratenko/ParsDirectory.git", branch = "main" }
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
