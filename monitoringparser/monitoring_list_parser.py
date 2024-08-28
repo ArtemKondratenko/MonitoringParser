@@ -8,7 +8,7 @@ def load(file: TextIO) -> set[Path]:
 
 
 def dump(file_path: Path, paths: Iterable[Path]):
-    with open(file_path, 'a') as file:
+    with open(file_path, 'a+') as file:
         for path in paths:
             absolute_path = Path(path).absolute()
             file.write(str(absolute_path) + "\n")
