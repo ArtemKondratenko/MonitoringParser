@@ -1,9 +1,13 @@
 from pathlib import Path
-from abc.collections import Iterable
+from collections.abc import Iterable
+from typing import TextIO
 
 
-def load(file) -> set[Path]:
-    pass
+def load(file: TextIO) -> set[Path]:
+    return set(Path(path.strip()) for path in file)
 
-def dump(paths: Iterable[Path]):
-    pass
+
+def dump(paths: Iterable[Path], file: TextIO):
+    for path in paths:
+        absolute_path = path.absolute()
+        file.write(str(absolute_path) + "\n")
