@@ -4,7 +4,7 @@ from collections.abc import Generator
 from typing import TextIO
 import pytest
 import tempfile
-from monitoring_list_parser import load, dump
+from monitoringparser.monitoring_list_parser import load, dump
 
 
 @pytest.fixture
