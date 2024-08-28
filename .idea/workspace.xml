@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ec502f9-3037-4e7d-88ad-cd1383cd15f6" name="Changes" comment="Update method dump">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4ec502f9-3037-4e7d-88ad-cd1383cd15f6" name="Changes" comment="Add method read_existing_path">
+      <change beforePath="$PROJECT_DIR$/monitoringparser/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/monitoringparser/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monitoringparser/monitoring_list_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/monitoringparser/monitoring_list_parser.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -174,7 +174,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724860523221</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add method read_existing_path">
+      <option name="closed" value="true" />
+      <created>1724861365375</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1724861365375</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -209,6 +217,7 @@
     <MESSAGE value="Add import func load, dump" />
     <MESSAGE value="Add absolute_path" />
     <MESSAGE value="Update method dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update method dump" />
+    <MESSAGE value="Add method read_existing_path" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add method read_existing_path" />
   </component>
 </project>

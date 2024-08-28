@@ -2,13 +2,6 @@ from pathlib import Path
 from collections.abc import Iterable
 from typing import TextIO
 
-
-def load(file: TextIO) -> set[Path]:
-    return set(Path(path.strip()) for path in file)
-
-
-
-
 def read_existing_paths(file_path: Path) -> set:
     """Читает существующие пути из файла и возвращает их в виде множества."""
     if file_path.exists():
