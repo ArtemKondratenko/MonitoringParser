@@ -1,4 +1,4 @@
-****Проект MonitoringParser**
+**Проект MonitoringParser**
 -
 
 **Назначение проекта:**
