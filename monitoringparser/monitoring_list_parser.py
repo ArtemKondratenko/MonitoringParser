@@ -15,4 +15,5 @@ def dump(paths: Iterable[Path], file: TextIO, existing_paths: set[Path] = None):
         if absolute_path not in  existing_paths:
             file.write(str(absolute_path) + "\n")
             print(f"Add path: {absolute_path}")
-        print(f"The path:  {absolute_path} already exists!")
+        else:
+            print(f"The path:  {absolute_path} already exists!")
