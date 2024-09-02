@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4ec502f9-3037-4e7d-88ad-cd1383cd15f6" name="Changes" comment="Update function dump">
+    <list default="true" id="4ec502f9-3037-4e7d-88ad-cd1383cd15f6" name="Changes" comment="Update function dump, test_dump">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monitoringparser/monitoring_list_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/monitoringparser/monitoring_list_parser.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/monitoringparser/test_monitoring_list_parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/monitoringparser/test_monitoring_list_parser.py" afterDir="false" />
@@ -166,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725267812083</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Update function dump, test_dump">
+      <option name="closed" value="true" />
+      <created>1725268759867</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1725268759867</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +209,7 @@
     <MESSAGE value="Add import func load, dump" />
     <MESSAGE value="Add absolute_path" />
     <MESSAGE value="Update function dump" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update function dump" />
+    <MESSAGE value="Update function dump, test_dump" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update function dump, test_dump" />
   </component>
 </project>

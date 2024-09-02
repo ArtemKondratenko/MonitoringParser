@@ -14,11 +14,11 @@ def tmpfile() -> Generator[TextIO, None]:
 
 
 def test_dump_and_load(tmpfile):
-    dump([Path("dir1"), Path("dir2")], tmpfile, set())
+    dump([Path("dir1"), Path("dir2")], tmpfile)
     tmpfile.seek(0)
     assert load(tmpfile) == {Path("dir1").absolute(), Path("dir2").absolute()}
 
-    dump([Path("dir3")], tmpfile, {Path("dir1").absolute(), Path("dir2").absolute()})
+    dump([Path("dir3")], tmpfile)
     tmpfile.seek(0)
     assert load(tmpfile) == {Path("dir1").absolute(), Path("dir2").absolute(), Path("dir3").absolute()}
 
